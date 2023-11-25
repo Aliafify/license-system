@@ -1,6 +1,9 @@
 # License Manager
 
-License Manager is a Node.js application designed to manage and control licenses for digital products. This application facilitates the generation of licenses, provides control over their duration, and offers an API for verifying the authenticity of licenses associated with your digital products.
+License Manager is a Node.js application developed to manage and control licenses for digital products. This application facilitates the generation of licenses, provides control over their duration, and offers an API for verifying the authenticity of licenses associated with your digital products.
+
+## Owner of this application 
+Dr/ Ali Afifi, the founder of [OSBASH](#osbash.com) company
 
 ## Table of Contents
 
@@ -36,4 +39,13 @@ create .env file and add
 4- run application
 
 npm run server
+
+5- API end-points 
+ # /generate-license
+ for generating new license
+
+
+ # /api/osbash-product/license/validate
+ for validating the license
+
 

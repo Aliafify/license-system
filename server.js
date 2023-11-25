@@ -22,7 +22,7 @@ app.use(bodyParser.json({limit: '10mb'}));
 
 app.get("/",(req,res)=>{
     console.log('brouser opened')
-    res.status(200).send('Hello To Whatsapp Automated sender')
+    res.status(200).send('Hello To License Maneger System, one of osbash.com products')
 })
 // ----------------------------------
  const Routes = require('./Routes.js');
@@ -35,7 +35,7 @@ app.listen(PORT,()=>{
 })  
 
 async function main() {
-    await mongoose.connect("mongodb+srv://Ali_Afify:Alssultan@cluster0.ouc2r.mongodb.net/lpc?retryWrites=true&w=majority",
+    await mongoose.connect(process.env.MONGO,
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
