@@ -1,0 +1,8 @@
+node_modules/
+server.zip/
+build.zip/
+server.zip/
+build/
+.git/
+.env/
+.gitignore/
