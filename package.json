@@ -1,0 +1,27 @@
+{
+  "name": "license-checker",
+  "version": "1.0.0",
+  "description": "this a software for validate licenses of our products (https://osbash.com)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "license",
+    "checker",
+    "license",
+    "validator"
+  ],
+  "author": "Ali Afifi (osbash company founder)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.18.2",
+    "mongoose": "^5.9.12",
+    "nodemon": "^3.0.1"
+  }
+}
