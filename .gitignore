@@ -3,6 +3,11 @@ server.zip/
 build.zip/
 server.zip/
 build/
-.git/
-.env/
-.gitignore/
+# Ignore .env files
+.env
+
+# Ignore Node.js modules
+node_modules/
+.git
+
+.gitignore
